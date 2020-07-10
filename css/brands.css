@@ -1,0 +1,168 @@
+/*==================
+    Brand Part Start
+====================*/
+
+
+/*==common==*/
+
+.section_head h2 {
+    font-size: 36px;
+    color: #f7941f;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 30px 20px 30px 0;
+}
+.section_img {
+    padding-bottom: 25px;
+    text-align: center;
+    padding-top: 35px;
+}
+.border_left {
+    border-left: 5px solid #f89422;
+}
+
+/*===common===*/
+
+#brands_part {
+    border-bottom: 3px solid #f89422;
+}
+#brands_part .nav-pills {
+    padding-bottom: 100px;
+}
+#brands_part .nav-pills {
+    padding-bottom: 100px;
+}
+#brands_part .nav-pills .nav-link {
+    background: #3b3b3b;
+    color: #f89422;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    font-weight: 500;
+    border-radius: 0;
+    text-transform: uppercase;
+    -webkit-box-shadow: 2px -1px 59px 14px rgba(0, 0, 0, 0.81);
+    -moz-box-shadow: 2px -1px 59px 14px rgba(0, 0, 0, 0.81);
+    box-shadow: 2px -1px 59px 14px rgba(0, 0, 0, 0.81);
+}
+#brands_part .nav-pills .nav-link.active {
+    color: #221d21;
+    background-color: #f89422;
+}
+.content_head h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #f89422;
+    text-transform: uppercase;
+    text-align: center;
+}
+#brands_part .tab-content .default p {
+    padding-bottom: 20px;
+}
+#brands_part .section_content {
+    padding-top: 40px;
+}
+#brands_part .section_content p {
+    text-align: justify;
+    padding-bottom: 20px;
+}
+drop down a:not([href]):not([tabindex]) {
+    color: #f89422;
+}
+#brands_part .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #000;
+    background-color: #f89422;
+}
+#brands_part .dropdown-menu.show {
+    top: -40px !important;
+    left: 280px !important;
+}
+#brands_part .dropdown-menu {
+    z-index: 1000;
+    float: left;
+    min-width: 10rem;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 0.25rem;
+}
+#brands_part .dropdown-item {
+    padding: 0.25rem 1.5rem;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.8;
+    text-transform: capitalize;
+}
+#brands_part .dropdown-item:hover {
+    color: #f89422;
+}
+#brands_part .default .section_img {
+    padding-top: 35px;
+}
+#brands_part .section_img {
+    padding-top: 0;
+}
+#brands_part .small_img {
+    padding-bottom: 50px;
+}
+#brands_part .small_img img {
+    width: 320px;
+}
+#brands_part .section_content .product_description {
+    padding-bottom: 20px;
+}
+#brands_part .section_content .product_description h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #f89422;
+}
+#brands_part .section_content .product_description p {
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+#brands_part .section_content .product_features {
+    padding-bottom: 20px;
+}
+#brands_part .section_content .product_features h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #f89422;
+}
+#brands_part .section_content .product_features p {
+    font-size: 14px;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+#brands_part .section_content .social a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    background: #f89422;
+    color: #000;
+    border-radius: 12px 12px 0 0;
+    margin-top: 10px;
+}
+#brands_part .section_content .social a i {
+    font-size: 14px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    color: #fff;
+    background: #2199ce;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+/*==================
+    Brand Part End
+====================*/

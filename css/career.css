@@ -1,0 +1,149 @@
+
+/*============================
+     Career Part Start
+=================================*/
+
+#career_part {
+    border-bottom: 5px solid #f89422;
+}
+
+/*==common==*/
+
+.section_head h2 {
+    font-size: 36px;
+    color: #f7941f;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 30px 20px 30px 0;
+}
+.section_img {
+    padding-bottom: 25px;
+}
+.border_left {
+    border-left: 5px solid #f89422;
+}
+#career_part .nav-pills .nav-link {
+    background: #3b3b3b;
+    color: #f89422;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    margin-bottom: 18px;
+    font-weight: 500;
+    border-radius: 0;
+    text-transform: uppercase;
+    -webkit-box-shadow: 2px -1px 59px 14px rgba(0, 0, 0, 0.81);
+    -moz-box-shadow: 2px -1px 59px 14px rgba(0, 0, 0, 0.81);
+    box-shadow: 2px -1px 59px 14px rgba(0, 0, 0, 0.81);
+    position: relative;
+}
+#career_part .nav-pills .nav-link:after {
+    position: absolute;
+    content: "\f0da";
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Font Awesome 5 free';
+    font-weight: 900;
+    font-size: 18px;
+    color: #000;
+}
+#career_part .nav-pills .nav-link.active {
+    color: #221d21;
+    background-color: #f89422;
+}
+#career_part .tab-content {
+    padding: 45px 0;
+}
+#career_part .career_form {
+    padding: 30px 40px;
+    background: #f89422;
+    border-radius: 15px;
+}
+#career_part .career_form h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #221d21;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+#career_part form .form-control {
+    border: transparent;
+    border-radius: 0;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #000000;
+    margin: 5px 0;
+    -webkit-appearance: none;
+    position: relative;
+}
+#career_part form .form-group {
+    position: relative;
+}
+#career_part form .form-group:after {
+    content: "\f078";
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: 'Font Awesome 5 free';
+    font-weight: 900;
+    font-size: 14px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    background: #ffd101;
+    pointer-events: none;
+}
+#career_part .form-control:focus {
+    box-shadow: none;
+}
+.date {
+    margin: 5px 0;
+}
+.choose_file {
+    margin: 5px 0;
+    color: #221d21;
+    font-size: 14px;
+}
+.choose_file input {
+    margin: 5px 0;
+    color: #221d21;
+    font-size: 14px;
+}
+.choose_file button {
+    color: #221d21;
+    padding: 5px 10px;
+    font-size: 14px;
+    background: #ffd101;
+    border: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 500;
+    margin: 5px 0;
+}
+.career_right {
+    padding-bottom: 20px;
+}
+.career_right p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+.career_right h5 {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    line-height: 1.7;
+}
+.career_right ul li {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+/*===================================
+        Career Part End
+===================================*/

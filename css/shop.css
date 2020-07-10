@@ -1,0 +1,245 @@
+    /*==================
+   Shop Part Start
+====================*/
+    
+    #shop_part {
+        border-bottom: 5px solid #f89422;
+    }
+    /*==common==*/
+    
+    .section_head h2 {
+        font-size: 36px;
+        color: #f7941f;
+        text-transform: uppercase;
+        text-align: right;
+        padding: 30px 20px 30px 0;
+    }
+    .section_img {
+        padding-bottom: 25px;
+    }
+    .border_left {
+        border-left: 5px solid #f89422;
+    }
+    #shop_part .nav-pills {
+        padding-bottom: 100px;
+    }
+    #shop_part .nav-pills .nav-link {
+        background: #3b3b3b;
+        color: #f89422;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 120px;
+        margin-bottom: 18px;
+        font-weight: 500;
+        border-radius: 0;
+        text-transform: uppercase;
+        -webkit-box-shadow: 2px -1px 59px 14px rgba(0, 0, 0, 0.81);
+        -moz-box-shadow: 2px -1px 59px 14px rgba(0, 0, 0, 0.81);
+        box-shadow: 2px -1px 59px 14px rgba(0, 0, 0, 0.81);
+        position: relative;
+    }
+    #shop_part .nav-pills .nav-link:after {
+        position: absolute;
+        content: "\f0da";
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-family: "Font Awesome 5 free";
+        font-weight: 900;
+        font-size: 18px;
+        color: #f89422;
+    }
+    #shop_part .nav-pills .nav-link.active {
+        color: #221d21;
+        background-color: #f89422;
+    }
+    #shop_part .nav-pills .nav-link.active:after {
+        color: #221d21;
+    }
+    .content_head h2 {
+        font-size: 36px;
+        font-weight: 500;
+        color: #f89422;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    #shop_part .tab-content {
+        padding-bottom: 40px;
+    }
+    #shop_part .shop_items {
+        padding-top: 50px;
+        text-align: center;
+    }
+    #shop_part .shop_items .item {
+        display: inline-block;
+        padding-bottom: 30px;
+    }
+    #shop_part .shop_items .item img {
+        width: 290px;
+        height: 350px;
+    }
+    #shop_part .content_head h2 {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #shop_part .content_head h4 {
+        font-size: 18px;
+        padding: 5px 0;
+        background: #f89422;
+        color: #000000;
+        text-transform: uppercase;
+    }
+    #shop_part form .form_head h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: 500;
+        background: #f89422;
+        padding: 10px;
+    }
+    #shop_part form .form-control {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    #shop_part form .form-group .form-control {
+        border: transparent;
+        text-transform: capitalize;
+        -webkit-appearance: none;
+    }
+    #shop_part form .form-group {
+        position: relative;
+        margin: 0;
+    }
+    #shop_part form .form-group:after {
+        content: "\f078";
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-family: 'Font Awesome 5 free';
+        font-weight: 900;
+        font-size: 14px;
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        text-align: center;
+        color: #000000;
+        background: #f89422;
+        pointer-events: none;
+    }
+    #shop_part .form-control:focus {
+        box-shadow: none;
+    }
+    #shop_part .back_shopping {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    #shop_part .back_shopping button.btn {
+        background: #f89422;
+        border-radius: 0;
+        width: 100%;
+        padding: 5px 0;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    #shop_part form .payment_method p {
+        background: #f89422;
+        width: 100%;
+        color: #000;
+        padding: 5px;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    #shop_part form .payment_method img {
+        height: 24px;
+        width: 40px;
+    }
+    #shop_part form .payment_method .international_cards {
+        padding-bottom: 5px;
+    }
+    #shop_part .order_head h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: 500;
+        background: #f89422;
+        padding: 10px;
+    }
+    #shop_part .order_border {
+        border-bottom: 3px solid #f89422;
+    }
+    #shop_part .order_item {
+        padding-bottom: 30px;
+    }
+    #shop_part .order_item img {
+        height: 100px;
+    }
+    #shop_part .order_item .order_text {
+        display: inline-block;
+    }
+    #shop_part .order_item .order_text p {
+        font-size: 12px;
+        text-transform: capitalize;
+        padding-left: 5px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #shop_part .order_item .price p {
+        padding-top: 5px;
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #f89422;
+        padding-bottom: 0;
+    }
+    #shop_part .total_price {
+        padding-top: 10px;
+    }
+    #shop_part .total_price .subtotal p {
+        padding-top: 5px;
+        font-size: 12px;
+        width: 50%;
+        text-transform: uppercase;
+        float: left;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #shop_part .total_price .vat p {
+        padding-top: 5px;
+        font-size: 12px;
+        width: 50%;
+        text-transform: uppercase;
+        float: left;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #shop_part .total_price .shipping p {
+        padding-top: 5px;
+        font-size: 12px;
+        width: 50%;
+        text-transform: uppercase;
+        float: left;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #shop_part .total_price .total p {
+        padding-top: 5px;
+        font-size: 14px;
+        width: 50%;
+        color: #f89422;
+        text-transform: uppercase;
+        float: left;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .save-info-text {
+        color: #f8942d;
+        font-size: 16px;
+    }
+    .order_head,
+    .form_head {
+        margin-bottom: 20px;
+    }
+    /*==================
+    Shop Part End
+====================*/

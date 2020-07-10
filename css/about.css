@@ -1,0 +1,59 @@
+/*==================
+   About Part Start
+====================*/
+
+#about_part {
+    border-bottom: 5px solid #f89422;
+}
+.section_head h2 {
+    font-size: 36px;
+    color: #f7941f;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 30px 20px 30px 0;
+}
+#about_part .section_content {
+    padding-bottom: 25px;
+}
+.border_left {
+    border-left: 5px solid #f89422;
+}
+#about_part .nav-pills {
+    padding-bottom: 100px;
+}
+#about_part .nav-pills .nav-link {
+    background: #3b3b3b;
+    color: #f89422;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    margin-bottom: 18px;
+    font-weight: 500;
+    border-radius: 0;
+    text-transform: uppercase;
+    -webkit-box-shadow: 2px -1px 59px 14px rgba(0, 0, 0, 0.81);
+    -moz-box-shadow: 2px -1px 59px 14px rgba(0, 0, 0, 0.81);
+    box-shadow: 2px -1px 59px 14px rgba(0, 0, 0, 0.81);
+}
+#about_part .nav-pills .nav-link.active {
+    color: #221d21;
+    background-color: #f89422;
+}
+#about_part .content_head h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #f89422;
+    text-transform: uppercase;
+    text-align: center;
+}
+#about_part .tab-content {
+    padding-bottom: 40px;
+}
+.tab-content p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+/*==================
+   About Part End
+====================*/
